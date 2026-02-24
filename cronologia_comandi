@@ -1,0 +1,15 @@
+mkdir giunberto
+cd giunberto
+git init
+git remote add origin git@github.com:spigolo420/verifica-git-classe.git
+vim index.txt
+git add index.txt
+git commit -m "Initial commit"
+vim index.txt
+git add index.txt
+git commit -m "Aggiunta data"
+git push -U origin master
+vim cronologia_comandi.txt
+git add cronologia_comandi.txt
+git commit -m "Aggiunta cronologia comandi"
+git push -u origin master
