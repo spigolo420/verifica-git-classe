@@ -13,3 +13,17 @@ vim cronologia_comandi.txt
 git add cronologia_comandi.txt
 git commit -m "Aggiunta cronologia comandi"
 git push -u origin master
+
+git branch sviluppo-funzionalità
+git checkout sviluppo-funzionalità
+vim app.java
+git add app.java
+git commit -m "Inizio lavoro su Java"
+vim app.java
+git add app.java
+git commit -m "Completamento logico"
+git push -u origin sviluppo-funzionalità
+vim cronologia_comandi.txt
+git add cronologia_comandi.txt
+git commit -m "Allineata la cronologia comandi al branch relativo"
+git push -u origin sviluppo-funzionalità
