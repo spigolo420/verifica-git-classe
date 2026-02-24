@@ -27,3 +27,15 @@ vim cronologia_comandi.txt
 git add cronologia_comandi.txt
 git commit -m "Allineata la cronologia comandi al branch relativo"
 git push -u origin sviluppo-funzionalità
+
+git checkout main
+vim index.txt
+git add index.txt
+git commit -m "Modifica index"
+git merge origin/sviluppo-funzionalità
+git commit -m "Merge"
+git push -u origin master
+vim cronologia_comandi.txt
+git add cronologia_comandi.txt
+git commit -m "Marge"
+git push -u origin master
